@@ -1,0 +1,34 @@
+{
+    "name": "gurl",
+    "desc": "Curl written in Go",
+    "flags": [
+        {
+            "sh": "u",
+            "lh": "url",
+            "required": true,
+            "help": "The URL(s) to download",
+            "type": "[]string"
+        },
+        {
+            "sh": "o",
+            "lh": "output",
+            "required": false,
+            "help": "Write to file instead of stdout",
+            "type": "[]string"
+        },
+        {
+            "sh": "s",
+            "lh": "slient",
+            "required": false,
+            "help": "Fail sliently",
+            "type": "bool"
+        },
+        {
+            "sh": "",
+            "lh": "keep-going",
+            "required": false,
+            "help": "Do not exit the program on download error",
+            "type": "bool"
+        }
+    ]
+}
