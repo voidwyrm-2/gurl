@@ -1,4 +1,4 @@
-module github.com/voidwyrm-2/Mobile
+module github.com/voidwyrm-2/gurl
 
 go 1.22.5
 
